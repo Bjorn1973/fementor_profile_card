@@ -15,6 +15,8 @@
   color: hsl(228, 45%, 44%);
 }
 body {
+}
+main {
   width: 100%;
   max-width: 1440px;
   max-height: 720px;
@@ -27,6 +29,108 @@ body {
 }
 .bottomcircle {
   position: relative;
-  bottom: 600px;
-  right: -722px;
+  top: -960px;
+  left: 623px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 375px;
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  top: -803px;
+  left: 545px;
+  z-index: 1;
+}
+.pattern {
+  height: 140px;
+  width: 350px;
+}
+.pattern .bubble {
+  width: 350px;
+  height: 140px;
+  background-color: var(--darkcyan);
+  border-radius: 12px 12px 0 0;
+}
+.content {
+  height: 146px;
+  width: 350px;
+  display: flex;
+}
+.pasfoto {
+  width: 104px;
+  height: 104px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 125px;
+  z-index: 1;
+}
+
+.name {
+  display: inline;
+  height: 18px;
+  font-family: "Kumbh Sans";
+  color: var(--verydarkdesaturatedblue);
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 5px;
+  padding-left: 10px;
+  padding-top: 78px;
+}
+.age {
+  height: 18px;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  color: var(--darkgray);
+  padding-top: 78px;
+}
+.place {
+  height: 18px;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  color: var(--darkgray);
+  padding-top: 107px;
+  margin-left: -90px;
+}
+ul::before {
+  content: "";
+  height: 1px;
+  background-color: #e7e7e7;
+  width: 350px;
+  display: inline;
+  position: absolute;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 89px;
+  width: 350px;
+}
+
+li {
+  display: inline;
+
+  padding-top: 30px;
+  font-family: "Kumbh Sans";
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--darkgray);
+}
+ul li h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--verydarkdesaturatedblue);
+  padding-bottom: 8px;
+}
+ul li p {
+  display: flex;
+  justify-content: center;
 }
