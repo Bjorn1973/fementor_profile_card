@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --darkcyan: hsl(185, 75%, 39%);
+  --verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  --darkgrayishblue: hsl(227, 10%, 46%);
+  --darkgray: hsl(0, 0%, 59%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+  max-height: 720px;
+  background-color: var(--darkcyan);
+}
+.topcircle {
+  position: relative;
+  left: -180px;
+  top: -518px;
+}
+.bottomcircle {
+  position: relative;
+  bottom: 600px;
+  right: -722px;
+}
